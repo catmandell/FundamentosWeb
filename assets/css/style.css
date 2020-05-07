@@ -1,0 +1,229 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@200;400;600;700&display=swap)
+
+body {
+	font-family: 'Open Sans','Oswald', sans-serif;
+	color:#373A3C;
+}
+
+body * {
+  	margin: 0;
+  	border: 0;
+  	padding: 0;
+  	font-family: 'Open Sans','Oswald', sans-serif;
+}
+
+.background-nav {
+	background-color: #660066;
+}
+
+.navbar-nav li a {
+	font-size: 1em;
+	font-weight: 300;
+}
+
+.navbar-brand {
+	color:#FFFFFF;
+	font-size: 1.5em;
+	font-weight:800;
+}
+
+header img {
+	width:100%;
+}
+
+h1 {
+	font-size:5em;
+	font-weight: lighter;
+	text-transform: uppercase;
+	text-align: center;
+	color:#FFFFFF;
+	padding: 5em 0em 0.1em 0em; 
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	color:#373A3C;
+	font-size: 2.5em;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.yo-soy h2 {
+	font-family: 'Oswald', sans-serif;
+	color:#FFFFFF;
+	font-size: 2.5em;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+hr {
+	width: 15em;
+	margin-left: auto;
+	margin-right: auto;
+	height: 0.1em;
+	background-color:#FFFFFF;
+}
+
+h3 {
+	color:#373A3C;
+	font-size: 1.5em;
+	line-height: 2em;
+	font-weight: 600;
+	color:#373A3C;
+	text-align: center;
+	margin-top:2em; 
+}
+
+h4 {
+	color:#373A3C;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	font-weight: 600;
+	text-align: center;
+	padding-top:0.3;
+}
+
+.yo-soy {
+	background-image: url(file:///Users/eva/Documents/3.MINE/1.UX:UI%20DESAFIO%20LATAM/PRUEBA_FUNDAMENTOS/assets/img/me_nyc.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 737px;
+}
+
+article hr {
+	width: 10em;
+	margin-left: auto;
+	margin-right: auto;
+	height: 0.1em;
+	background-color:#373A3C;
+}
+
+.row-cols-2>* {
+	font-size: 1em;
+	color:#373A3C;
+	line-height: 2.5em;
+	font-weight: 300;
+	color:#373A3C;
+	text-align: left;
+	margin-top:3em;
+}
+
+.experiencia {
+	text-align: center;
+	margin-top:5em;
+	margin-bottom: 3em;
+}
+
+.experiencia hr {
+	width: 10em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+	height: 0.1em;
+	background-color:#373A3C;
+}
+
+.iconos-section {
+	display: flex;
+	width: 100%;
+	text-align: center;
+ }
+  
+.exp-icono {
+	color:#660066;
+	width: 100%;
+  	text-align: center;
+  	size:7px;
+}
+
+.exp-icono {
+  	display: inline-block;
+}
+
+.exp-icono > p {
+	color:#373A3C;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+	font-weight: 200;
+	text-align: center;
+}
+
+.ultimos-trabajos {
+	background-color: #660066;
+}
+
+.ultimos-trabajos h2 {
+	color:#FFFFFF;
+	padding-top:2em;
+	padding-bottom:0.5em;
+}
+
+.ultimos-trabajos hr {
+	width: 10em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+	height: 0.1em;
+	background-color:#FFFFFF;
+}
+
+.contact h2{
+	margin:2em;
+}
+
+.iconos-rrss {
+	display: inline-flex;
+	color:#FFFFFF;
+	text-align: right;
+}
+
+.rrss-icono {
+	padding:1em;
+
+}
+
+.visita {
+	background-color: #660066;
+}
+
+.visita h2 {
+	color:#FFFFFF;
+	text-align: left;
+	padding:1em;
+}
+
+.rrss-icono {
+	display
+}
+
+@media only screen and (max-width: 480px) {
+h1 {
+	font-size:3em;
+
+  }
+
+@media only screen and (max-width: 480px) {
+.sobre-mi {
+	display: none;
+  }
+
+@media only screen and (max-width: 480px) {
+.contact h2 {
+	margin-left:0;
+	margin-right:0;
+
+  }
+
+@media only screen and (max-width: 480px) {
+.visita h2 {
+	text-align: center;
+  }
+
+.iconos-rrss {
+	display: inline;
+
+  }
+}
